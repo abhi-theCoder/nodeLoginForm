@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/loginDB', { 
+mongoose.connect('mongodb+srv://abhishekkumarmahto2005:R7EJTsXLws4WCfgy@cluster0.pcr8b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { 
     useNewUrlParser: true, 
     useUnifiedTopology: true 
 }).then(() => {
